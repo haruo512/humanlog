@@ -5,15 +5,16 @@ import android.util.Log;
 /**
  * Created by motoharuwatanabe on 16/08/22.
  */
-public class Human extends Animal{
+public class Human extends Animal implements Thinkable{
 
     //メンバ変数
     String hobby="Java";
 
     //コンストラクタ
-    public Human(String name, int age){
+    public Human(String name, int age, String hobby){
         this.name = name;
         this.age = age;
+        this.hobby = hobby;
     }
 
     //メンバ関数

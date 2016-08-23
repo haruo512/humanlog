@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Human human = new Human("渡邊", 17);      //名前を渡邊、年齢17歳で、Humanのインスタンスを作る
+        Human human = new Human("渡邊", 17, "Android");      //名前を渡邊、年齢17歳で、Humanのインスタンスを作る
         human.say();
         human.think();
     }
